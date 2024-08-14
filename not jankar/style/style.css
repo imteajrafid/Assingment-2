@@ -1,0 +1,14 @@
+.parants {
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    gap: 30;
+    justify-content: flex-end;
+}
+.child {
+    border: 2px solid rgba(red);
+    background-color: royalblue;
+   padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+}
