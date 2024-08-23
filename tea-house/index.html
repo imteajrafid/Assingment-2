@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/9e1d73b791.js" crossorigin="anonymous"></script>
+<!-- tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+  
+}
+</style>
+</head>
+<body>
+  <main class=" max-w-screen-xl m-auto px-16 lg:px-28">
+  <header class="flex p-10 mb-20">
+    <!-- text contant -->
+     <div>
+    <h1 class="text-5xl md:text-7xl">It's good <br>
+      tea time at The
+      <br> Tea House</h1>
+      <p class="text-gray-500 w-3/4">
+        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+      </p>
+      <button class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg text-white font-bold w-48 h-16   ">
+        Explore More<i class="fa-solid fa-arrow-right text-xl -rotate-45"></i> 
+        
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 4.5-15 15m0 0h11.25m-11.25 0V8.25 " />
+        </svg> -->
+        
+      </button>
+      
+ <!-- Image Content -->
+ <div class="relative">
+  <!-- Image -->
+  <div>
+    <img class="w-full" src="./images/banner.png" alt="" />
+  </div>
+  <!-- Card -->
+  <div
+    class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28"
+  >
+    <!-- icon -->
+    <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+    <!-- Text -->
+    <div class="ml-2">
+      <h2 class="lg:text-2xl font-bold">5.00</h2>
+      <p class="text-gray-500">Trust Pilot Ratings</p>
+    </div>
+  </div>
+ </div>
+  </header>
+ <!-- great tea section -->
+  <section class="mb-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+      <!-- img sec -->
+      <div class="grid grid-cols-2 grid-rows-3 gap-4">
+     <div class="h-38 bg-gradient-to-r from-red-100 to-red-100"></div>
+      </div>
+       </div>
+       <!-- text sec -->
+        <div>
+          <h1 class="text-[#1C1C1C] font-extrabold text-5xl">
+            Great Tea, Freshly Presented
+        </h1>
+        <p class="font-medium text-sm">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+        <br>
+        <h1 class="font-extrabold text-xl">Unique Taste</h1>
+        <p class="font-medium text-sm">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        <h1 class="font-extrabold text-xl">Premium Quality</h1>
+        <p class="font-medium text-sm">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+  </section>
+
+
+
+
+<!-- Reviews section -->
+<section class="mb-30">
+  <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
+  <!-- Text section -->
+    <div class="flex justify-center items-center "> 
+    <div class="w-full lg:w-5/6">
+      <h1 class="font-extrabold text-5xl mb-5 mt-10">Meet Our Super Clients</h1>
+      <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
+    </div>
+</div>
+    <!-- Reviews card section -->
+    <div class="relative py-24">
+      <!-- Card -->
+      <div class="relative left-28 top-0 right-0 opacity-35  bg-white text-black rounded-lg w-full md:w-3/4 mx-auto p-6 flex flex-col items-center">
+        <div class="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white rounded-full">
+          <img class="-rotate-45 p-1 w-24 h-24 rounded-full" src="images/client.png" alt="Client">
+        </div>
+        <div class="mt-12 text-center">
+          <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment.</p>
+          <h1 class="font-bold text-black">Ilham Yuda</h1>
+          <small class="font-medium text-gray-500">Businessman</small>
+        </div>
+      </div>
+      <!-- 2crd -->
+      <div class=" relative opacity-40 left-28 top-10 bg-white text-black rounded-lg w-full md:w-3/4 mx-auto p-6 flex flex-col items-center">
+        <div class="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white rounded-full">
+          <img class="p-1 w-24 h-24 rounded-full" src="images/client.png" alt="Client">
+        </div>
+        <div class="mt-12 text-center">
+          <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment.</p>
+          <h1 class="font-bold text-black">Ilham Yuda</h1>
+          <small class="font-medium text-gray-500">Businessman</small>
+        </div>
+      </div>
+      <!--  -->
+      <div class="absolute bottom-40">
+      <div class=" relative  bg-white text-black rounded-lg w-full md:w-3/4 mx-auto p-6 flex flex-col items-center">
+        <div class="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white rounded-full">
+          <img class="p-1 w-24 h-24 rounded-full" src="images/client.png" alt="Client">
+        </div>
+        <div class="mt-12 text-center">
+          <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment.</p>
+          <h1 class="font-bold text-black">Ilham Yuda</h1>
+          <small class="font-medium text-gray-500">Businessman</small>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="bg-orange-100 h-36 text-gray-700 py-10 px-4 md:px-16">
+     <div class="w-9/12 mx-auto">
+      <!-- logo -->
+       <div class="mb-8 flex justify-between ">
+        <img class="mb-8" src="images/cup.png" alt="">
+        <div class="flex items-center gap-2">
+          <h4>Ready to get strated?</h4>
+          <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-xl">Get Started</button>
+        </div>
+       </div>
+       <!-- links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- 1st clm -->
+           <div><h3 class="font-semibold text-lg mb--3">Quick Links</h3></div>
+        </div>
+     </div>
+
+  </footer>
+</body>
+</html>
